@@ -1,17 +1,17 @@
 {
-  "name": "dashboard-app",
+  "name": "fish-inventory-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "description": "Backend API for Fish Inventory Dashboard",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
-    "better-sqlite3": "^13.0.3",
-    "express": "^5.3.0"
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2"
   }
 }
