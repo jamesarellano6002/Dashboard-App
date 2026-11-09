@@ -1,3 +1,4 @@
+
 {
   "name": "fish-inventory-api",
   "version": "1.0.0",
@@ -7,9 +8,9 @@
   "scripts": {
     "start": "node server.js"
   },
- "engines": {
-  "node": "22.x"
-}
+  "engines": {
+    "node": "22.x"
+  },
   "dependencies": {
     "better-sqlite3": "^11.8.1",
     "express": "^4.21.2"
